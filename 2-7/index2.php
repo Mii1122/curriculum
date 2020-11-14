@@ -34,6 +34,7 @@ echo $colors["green"];
 echo '<br />';
 var_dump($colors);
 
+//課題
 echo '<br>';
 $colors = ["red"=>"赤", "blue"=>"青", "green"=>"緑","yellow"=>"黄色"];
 
@@ -46,5 +47,9 @@ echo '<br />';
 echo $colors["yellow"];
 echo '<br />';
 var_dump($colors);
+
+//1.プルリクエスト 一人で作ると気づかないところも直し、品質を向上させる
+//2.Git Flow Gitの機能であるブランチを活用した開発手法、ツールである
+//3.CRON 何を、いつするのか設定するシステム
 
 ?>

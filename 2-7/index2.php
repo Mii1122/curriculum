@@ -24,18 +24,6 @@ var_dump($fluits);
 
 <?php
 echo '<br>';
-$colors = ["red"=>"赤", "blue"=>"青", "green"=>"緑"];
-
-echo $colors["red"];
-echo '<br />';
-echo $colors["blue"];
-echo '<br />';
-echo $colors["green"];
-echo '<br />';
-var_dump($colors);
-
-//課題
-echo '<br>';
 $colors = ["red"=>"赤", "blue"=>"青", "green"=>"緑","yellow"=>"黄色"];
 
 echo $colors["red"];

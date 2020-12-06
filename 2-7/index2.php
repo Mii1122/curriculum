@@ -24,7 +24,8 @@ var_dump($fluits);
 
 <?php
 echo '<br>';
-$colors = ["red"=>"赤", "blue"=>"青", "green"=>"緑","yellow"=>"黄色"];
+$colors = ["red"=>"赤", "blue"=>"青", "green"=>"緑"];
+$colors["yellow"] = "黄色";
 
 echo $colors["red"];
 echo '<br />';
@@ -32,6 +33,7 @@ echo $colors["blue"];
 echo '<br />';
 echo $colors["green"];
 echo '<br />';
+
 echo $colors["yellow"];
 echo '<br />';
 var_dump($colors);

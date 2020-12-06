@@ -12,10 +12,10 @@
         <input type="hidden" name="hidden_param" value="隠しパラメータから" />
         <br>
         年齢：
-    <select name="number">
-      <?php for ($i=21;$i<=24;$i++){ ?>
-        <option value="<?php echo $i; ?>">
-          <?php echo $i; ?>
+    <select name="age">
+      <?php for ($age=21;$age<=24;$age++){ ?>
+        <option value="<?php echo $age; ?>">
+          <?php echo $age; ?>
         </option>
       <?php } ?>
     </select>
@@ -33,9 +33,9 @@
     <br>
     個数：
     <select name="number">
-      <?php for ($i=1;$i<=10;$i++){ ?>
-        <option value="<?php echo $i; ?>">
-          <?php echo $i; ?>
+      <?php for ($number=1;$number<=10;$number++){ ?>
+        <option value="<?php echo $number; ?>">
+          <?php echo $number; ?>
         </option>
       <?php } ?>
     </select>

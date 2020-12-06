@@ -9,12 +9,12 @@
     <p>パスワードは<?php echo $password; ?>です。</p>
     <p>性別は<?php echo $sex; ?>です。</p>
     <p>性別は<?php echo $hidden_param; ?>です。</p>
-    <p>年齢は<?php echo $i; ?>です。</p>
+    <p>年齢は<?php echo $age; ?>です。</p>
 
 <?php
     $my_name = $_POST['my_name'];
     $award = $_POST['award'];
-    $i = $_POST['number'];
+    $number = $_POST['number'];
     ?>
     <p>お名前：<?php echo $my_name; ?></p>
     <p>ご希望商品<?php echo $award; ?></p>
